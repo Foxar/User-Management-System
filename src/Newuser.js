@@ -156,10 +156,6 @@ addUserGroup(){
             style={style.FormUsergroup}
             value={ this.state.usergroup }
             onChange={ this.handleUsergroupChange} />
-          <button
-          type="button"
-          style= { style.FormUsergroupButton }
-          onclick={this.addUserGroup}>+</button>
           <input
             id='submitButton'
             type='submit'

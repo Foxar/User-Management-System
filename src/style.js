@@ -3,10 +3,12 @@ const style = {
   app: {
     backgroundColor: 'rgb(230,230,230)',
     width: '60%',
-    padding: '0 15px',
-    position: 'absolute',
-    margin: '15vh 20%',
+    padding: '5px 15px',
+    margin: '15vh 20% 0 20%',
     borderRadius: '5px',
+    height: '70vh',
+
+
   },
   commentBox: {
     width:'80vw',
@@ -18,7 +20,9 @@ const style = {
     fontFamily:'Helvetica, sans-serif',
     width: '60%',
     borderRadius: '10px',
-    padding: '0'
+    padding: '0',
+    position: 'relative',
+    height: '80%'
   },
   title: {
     textAlign:'center',
@@ -31,23 +35,29 @@ const style = {
     fontFamily:'Helvetica, sans-serif',
     backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
-    minHeight: '7vh',
+    minHeight: '10vh',
     position: 'absolute',
     top: '0',
     left: '0',
     width: '100%',
-    marginBottom: '50px'
+
+  },
+  passwordField: {
+    textSecurity: 'disc',
+    border: '0px',
+    backgroundColor: '#f9f9f9'
   },
   List: {
     border:'1px solid #f1f1f1',
     borderRadius: '15px',
     padding:'0 12px',
-    maxHeight:'70vh',
+    maxHeight: '90%',
     overflowY:'scroll',
     listStyleType: 'none',
     backgroundColor: 'white',
     boxShadow: '2px 2px 10px #555',
-    marginBottom: '10vw'
+    position: 'absolute',
+    width: '100%'
   },
   FormBox: {
     border:'1px solid #f1f1f1',
@@ -58,7 +68,7 @@ const style = {
     boxShadow: '2px 2px 10px #555',
   },
   user: {
-    backgroundColor:'#fafafa',
+    backgroundColor:'#f9f9f9',
     margin:'10px',
     padding:'3px 10px',
     fontSize:'.85rem',
@@ -70,7 +80,11 @@ const style = {
     textAlign: 'center',
     color: '#555',
     fontSize: '0.7em',
-    marginTop: '5vh',
+    position: 'absolute',
+    bottom: '15px',
+    left: '20%',
+    right: '20%',
+    margin: '0 auto'
   },
   userListTitle: {
     textAlign: 'center',
@@ -146,6 +160,7 @@ const style = {
     right:'0',
     textDecoration:'none',
     verticalAlign: 'middle',
+    boxShadow: '2px 2px 4px #555',
     backgroundColor: '#2196f3'
   },
   deleteLink: {
@@ -158,6 +173,7 @@ const style = {
     right:'0',
     textDecoration:'none',
     fontSize:'.7rem',
+    boxShadow: '2px 2px 4px #555',
     backgroundColor: '#ff5722'
   },
   deleteLinkUsergroup: {

@@ -39,7 +39,7 @@ class User extends Component {
 
       <div style={ style.user }>
         <strong>Username: </strong> {this.props.userObj.username} <br/>
-        <strong>Password: </strong> { this.props.userObj.password } <br/>
+        <strong>Password: </strong> <input type='password' style={style.passwordField} value={this.props.userObj.password}/> <br/>
         <strong>Date of birth: </strong> { this.state.dob.toDateString() } <br/>
         <strong>Name: </strong> {this.props.userObj.name} <br/>
         <strong>Surname: </strong> {this.props.userObj.surname} <br/>
